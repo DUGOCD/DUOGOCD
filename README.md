@@ -1,4 +1,4 @@
-# Multi-Objective Evolutionary Algorithm (MOEA) in MATLAB
+# EIEAPT in MATLAB
 
 ## File Structure Overview
 
@@ -33,12 +33,12 @@
 
 | Parameter | Description | Typical Value |
 |-----------|-------------|---------------|
-| `pop` | Population size | 50 |
+| `pop` | Population size | 100 |
 | `maxFE` | Max function evaluations | 100,000 |
 | `f_num` | Number of objectives | 2-3 |
-| `x_num` | Decision variables | 30-500 |
+| `x_num` | Decision variables | 500-2000 |
 | `pc` | Crossover probability | 1.0 |
-| `pm` | Mutation probability | 1/x_num |
+| `pm` | Mutation probability | 1/D |
 
 ## Customization Guide
 
